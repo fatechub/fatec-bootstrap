@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Fatec Bootstrap, a beautiful theme Bootstrap for Fatecs.">
+<meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, bootstrap, front-end, frontend, web development, fatec">
+<meta name="author" content="adammacias.com.br">
+
+<title>
+  {% if page.title == "Fatec Bootstrap" %}
+    {{ page.title }}
+  {% else %}
+    {{ page.title }} &middot; Fatec Bootstrap
+  {% endif %}
+</title>
+
+<!-- Fatec Bootstrap core CSS -->
+<link href="{{ site.baseurl }}/dist/css/fatec-bootstrap.css" rel="stylesheet">
+
+<!-- Documentation extras -->
+<link href="{{ site.baseurl }}/assets/css/docs.min.css" rel="stylesheet">
+<!--[if lt IE 9]><script src="{{ site.baseurl }}/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Favicons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/ico/apple-touch-icon-144-precomposed.png">
+                               <link rel="shortcut icon" href="{{ site.baseurl }}/assets/ico/favicon.ico">
+

@@ -1,73 +1,43 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Fatec-bootstrap by fateclab</title>
+---
+layout: home
+title: Fatec Bootstrap
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Fatec-bootstrap</h1>
-        <p>Fatec Bootstrap, a beautiful theme Bootstrap for any Fatecs, everywhere in Brazil.</p>
+<main class="bs-masthead" id="content" role="main">
+  <div class="container">
+    <div class="center-block bn"><span class="bn-logo-fatec"></span></div>
+    <!-- <h1>Fatec Bootstrap</h1> -->
+    <p class="lead">Fatec Bootstrap, a beautiful theme Bootstrap for any Fatecs, everywhere in Brazil.</p>
+    <p class="lead">
+      <a href="getting-started#download" class="btn btn-outline-inverse btn-lg" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Download', 'Download {{ site.current_version }}']);">Download Fatec Bootstrap</a>
+    </p>
+    <p>Version {{ site.current_version_fatec }}</p>
+  </div>
+</main>
 
-        <p class="view"><a href="https://github.com/fateclab/fatec-bootstrap">View the Project on GitHub <small>fateclab/fatec-bootstrap</small></a></p>
+<div class="bs-featurette">
+  <div class="container">
+    <h2 class="bs-featurette-title">Designed for Fatecs, everywhere.</h2>
+    <p class="lead">Fatec Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.</p>
 
+    <hr class="half-rule">
 
-        <ul>
-          <li><a href="https://github.com/fateclab/fatec-bootstrap/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/fateclab/fatec-bootstrap/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/fateclab/fatec-bootstrap">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
-<a name="fatec-bootstrap" class="anchor" href="#fatec-bootstrap"><span class="octicon octicon-link"></span></a>Fatec Bootstrap</h1>
-
-<ul>
-<li><a href="http://fateclab.github.io/fatec-bootstrap/">Website</a></li>
-<li><a href="https://github.com/fateclab/fatec-bootstrap">GitHub Fatec Bootstrap</a></li>
-</ul><h2>
-<a name="history" class="anchor" href="#history"><span class="octicon octicon-link"></span></a>History</h2>
-
-<p>Fatec Bootstrap was originally developed by <a href="http://www.adammacias.com.br">Adam Macias</a> for all Fatecs of Brazil, to help developers in the front end or back end.</p>
-
-<h2>
-<a name="estruture" class="anchor" href="#estruture"><span class="octicon octicon-link"></span></a>Estruture</h2>
-
-<pre><code>bootstrap/
-├── css/
-│   ├── fatec-bootstrap.css
-│   └── fatec-bootstrap.min.css
-├── js/
-│   ├── fatec-bootstrap.js
-│   └── fatec-bootstrap.min.js
-└── fonts/
-    └── bootstrap/
-        ├── glyphicons-halflings-regular.eot
-        ├── glyphicons-halflings-regular.svg
-        ├── glyphicons-halflings-regular.ttf
-        └── glyphicons-halflings-regular.woff
-</code></pre>
-
-<h2>
-<a name="copyright-and-licensed" class="anchor" href="#copyright-and-licensed"><span class="octicon octicon-link"></span></a>Copyright and Licensed</h2>
-
-<p>Code licensed under MIT, documentation under CC BY 3.0.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/fateclab">fateclab</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="assets/img/devices.png" alt="Responsive across devices" class="img-responsive">
+        <h3>One framework, every device.</h3>
+        <p>Fatec Bootstrap easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+      </div>
+      <div class="col-sm-6">
+        <img src="assets/img/components.png" alt="Components" class="img-responsive">
+        <h3>Comprehensive docs</h3>
+        <p>With Fatec Bootstrap, you get extensive and beautiful documentation with hundreds of live examples, code snippets, and more.</p>
+      </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+
+    <hr class="half-rule">
+
+    <p class="lead">Fatec Bootstrap is open source. It's hosted, developed, and maintained on GitHub.</p>
+    <a href="{{ site.repo }}" class="btn btn-outline btn-lg">View the GitHub project</a>
+  </div>
+</div>
