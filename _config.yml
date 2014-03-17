@@ -16,20 +16,20 @@ encoding:         UTF-8
 exclude:          ["vendor"]
 
 # Custom vars
-current_version_fatec:  3.0.3-3.1.0
-current_version:  3.1.0
+current_version_fatec:  3.1.1-3.1.1
+current_version:  3.1.1
 repo:             https://github.com/fateclab/fatec-bootstrap
 sass_repo:        https://github.com/fateclab/fatec-bootstrap-sass
 
 download:
-  source:         https://github.com/fateclab/fatec-bootstrap/archive/3.0.3-3.1.0.zip
-  dist:           https://github.com/fateclab/fatec-bootstrap/releases/download/3.0.3-3.1.0-dist/fatec-bootstrap-3.0.3-3.1.0-dist.zip
-  sass:           https://github.com/fateclab/fatec-bootstrap-sass/archive/v3.1.0.tar.gz
+  source:         https://github.com/fateclab/fatec-bootstrap/archive/3.1.1-3.1.1.zip
+  dist:           https://github.com/fateclab/fatec-bootstrap/archive/3.1.1-3.1.1.zip
+  sass:           https://github.com/fateclab/fatec-bootstrap/archive/3.1.1-3.1.1.zip
 
 blog:             http://blog.getbootstrap.com
 expo:             http://expo.getbootstrap.com
 
 cdn:
-  css:            //netdna.bootstrapcdn.com/bootstrap/3.1.0/css/fatec-bootstrap.min.css
-  css_theme:      //netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css
-  js:             //netdna.bootstrapcdn.com/bootstrap/3.1.0/js/fatec-bootstrap.min.js
+  css:            //netdna.bootstrapcdn.com/bootstrap/3.1.1/css/fatec-bootstrap.min.css
+  css_theme:      //netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css
+  js:             //netdna.bootstrapcdn.com/bootstrap/3.1.1/js/fatec-bootstrap.min.js
